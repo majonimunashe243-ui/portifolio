@@ -1,0 +1,66 @@
+
+<!-- ================= INDEX.HTML ================= -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Munashe Majoni Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+<header>
+  <nav>
+    <h2 class="logo">Munashe</h2>
+    <ul id="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+</header>
+
+
+<section id="home" class="hero">
+  <h1>Hello, I'm Munashe</h1>
+  <h2><span id="typing"></span></h2>
+  <a href="resume.pdf" download class="btn">Download Resume</a>
+</section>
+
+
+<section id="about" class="fade">
+  <h2>About Me</h2>
+  <p>
+    I am an Electronics and Communication Engineering student skilled in Microcontrollers,
+    Arduino, Raspberry Pi, Cloud Computing, AI/ML and UI/UX design.
+  </p>
+</section>
+
+
+<section id="projects" class="fade">
+  <h2>Projects</h2>
+  <div class="project-container">
+    <div class="card">
+      <h3>Smart Parking System</h3>
+      <p>Using Raspberry Pi Pico and ultrasonic sensors.</p>
+    </div>
+    <div class="card">
+      <h3>Solar Tracker</h3>
+      <p>Arduino-based solar tracking system.</p>
+    </div>
+    <div class="card add-card" onclick="addProject()">
+      <h3>+ Add Project</h3>
+    </div>
+  </div>
+</section>
+
+
+<section id="contact" class="fade">
+</html>
